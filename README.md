@@ -1,4 +1,4 @@
-# Java Application
+# Java com.celfocus.Application
 
 ## Propose
 
@@ -27,9 +27,9 @@ Run the following commands from project root.
 ```bash
 mvn clean package
 ```
-Then move the .jar generated in the `target` directory to the directory of your choice
+Then move the "phone-number-project-jar-with-dependencies.jar" generated in the `target` directory to the directory of your choice
 ```bash
-java -jar "phone-number-project" input.txt
+java -jar phone-number-project-jar-with-dependencies.jar input.txt
 ```
 
 The jar automatically import the provided `countryCodes.txt` file placed next to the jar file.
