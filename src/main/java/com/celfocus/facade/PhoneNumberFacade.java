@@ -1,9 +1,9 @@
-package facade;
+package com.celfocus.facade;
 
-import exception.ValidationException;
-import service.LongPhoneNumberService;
-import service.Service;
-import service.ShortPhoneNumberService;
+import com.celfocus.exception.ValidationException;
+import com.celfocus.service.LongPhoneNumberService;
+import com.celfocus.service.Service;
+import com.celfocus.service.ShortPhoneNumberService;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

@@ -1,6 +1,7 @@
 package service;
 
-import exception.ValidationException;
+import com.celfocus.exception.ValidationException;
+import com.celfocus.service.ShortPhoneNumberService;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
