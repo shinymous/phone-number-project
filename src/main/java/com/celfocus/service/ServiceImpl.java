@@ -1,6 +1,6 @@
-package service;
+package com.celfocus.service;
 
-import exception.ValidationException;
+import com.celfocus.exception.ValidationException;
 
 public abstract class ServiceImpl implements Service {
 

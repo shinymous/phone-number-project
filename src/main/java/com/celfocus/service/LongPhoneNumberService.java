@@ -1,7 +1,7 @@
-package service;
+package com.celfocus.service;
 
-import exception.CustomException;
-import exception.ValidationException;
+import com.celfocus.exception.CustomException;
+import com.celfocus.exception.ValidationException;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

@@ -1,4 +1,4 @@
-package exception;
+package com.celfocus.exception;
 
 public class CustomException extends RuntimeException {
     public CustomException(String message){
