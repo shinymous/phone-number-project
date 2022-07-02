@@ -13,7 +13,7 @@ import java.util.Map;
 
 public class PhoneNumberFacade {
 
-    private static final String COUNTRY_FILE_NAME = "coutryCodes.txt";
+    private static final String COUNTRY_FILE_NAME = "countryCodes.txt";
 
     public static void process(final String inputFileName) throws IOException {
         BufferedReader inputFileReader = new BufferedReader(new FileReader(inputFileName));
