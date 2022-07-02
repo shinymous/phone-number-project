@@ -21,9 +21,16 @@ A phone number is only valid if:
 
 ## Run
 
-To run the project you will need to generate the jar file.
+You can simply run the command on project root.
+```bash
+java -jar phone-number-project-jar-with-dependencies.jar input.txt
+```
 
-Run the following commands from project root. 
+## OR 
+
+To run the project you will need to generate the jar file
+
+Run the following commands from project root
 ```bash
 mvn clean package
 ```
@@ -32,7 +39,9 @@ Then move the "phone-number-project-jar-with-dependencies.jar" generated in the 
 java -jar phone-number-project-jar-with-dependencies.jar input.txt
 ```
 
-The jar automatically import the provided `countryCodes.txt` file placed next to the jar file.
+The jar automatically import the provided `countryCodes.txt` file placed next to the jar file
+
+You can edit the `input.txt` file
 
 ## Output
 
